@@ -11,20 +11,16 @@
   }
 
  header {
-  padding: 20px 35px;
+  padding: 40px 70px;
   background-color: var(--tertiary-color);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-   background-image: url("../images/download.png");
-   background-size: cover;
-   background-attachment: fixed;
-   background-position: 80%;
-   z-index: 9999 
- }
+  background-image: url("../images/download.png");
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: 80%;
+}
 
  header h1 {
   font-weight: bold;
@@ -53,7 +49,7 @@ header nav ul {
 header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
-  font-size: 1.55vw;
+  font-size: 2.0vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  
 }
 
@@ -69,30 +65,26 @@ body {
   font-family: Helvetica, Arial, sans-serif;  
 }
 
- .hero-about, .hero-work, .hero-contact, .hero-resume {
-   background-image: url("../images/portfolio-background-header-Jessica-Roots-Web-Design-.jpg");
-   background-size: cover;
-   background-position: center;
-   display: flex;
-   justify-content: center;
-   flex-wrap: wrap;
-   align-items: flex-start;
-   background-attachment: fixed;
-   background-position: 80%;
-   color: white;  ;
- }
+.hero {
+  background-image: url("../images/istockphoto-1309884850-170667a.jpg");
+}
 
- .hero-about {
-   image-resolution: 0;
+ .hero-about, .hero-work, .hero-contact, .hero-resume {
+   background-image: url("../images/istockphoto-1309884850-170667a.jpg");
+   display: flex;
+   color: white;
+   height: 200px;  
  }
 
  footer {
-  background-image: url(../images/pngtree-top-view-background-of-desktop-with-electronic-devices-and-laptop-image_307721.jpg);
+  background-image: url("../images/portfolio-background-header-Jessica-Roots-Web-Design-.jpg");
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   list-style: none;
+  color: white;
+  height: 100px;
 }
 
 
