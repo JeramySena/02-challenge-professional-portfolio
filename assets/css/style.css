@@ -92,6 +92,11 @@ body {
  padding-right: 50px;
 }
 
+.footer-title {
+  padding-right: 50px;
+  font-size: 25px;
+  color:#C0C0C0
+}
  .footer {
   background-image: url("../images/portfolio-background-header-Jessica-Roots-Web-Design-.jpg");
   display: flex;
@@ -99,9 +104,29 @@ body {
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  color: black;
-  height: 100px;
+  color: #C0C0C0;
+  height: 125px;
 }
 
 
+.footer nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
 
+.footer nav ul li a {
+  font-weight: lighter;
+  font-size: 1.5vw;
+  color: #C0C0C0;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  
+}
+
+.footer nav ul li a:hover {
+  background: #C0C0C0;
+  color: #336666;
+  border-radius: 15px;
+  text-shadow: none;
+}
