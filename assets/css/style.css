@@ -5,7 +5,7 @@
   }
 
  header {
-  padding: 40px 70px;
+  padding: 80px 40px;
   background-color: var(--tertiary-color);
   display: flex;
   justify-content: space-between;
@@ -14,18 +14,20 @@
   background-size: contain;
   background-attachment: fixed;
   background-position: 80%;
+  color: #C0C0C0;
+  height: 175px;
 }
 
  header h1 {
   font-weight: bold;
   font-size: 36px;
-  color: var(--primary-color);
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  
+  color: #C0C0C0;
+  text-shadow: 0 0 10px rgba(#C0C0C0);  
 }
 
 header a {
   text-decoration: none;  
-  color: var(--primary-color);  
+  color: #C0C0C0;  
 }
 
 header nav {
@@ -48,8 +50,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  background: var(--primary-color);
-  color: var(--secondary-color);
+  background: #C0C0C0;
+  color: #336666;
   border-radius: 15px;
   text-shadow: none;
 }
@@ -63,16 +65,32 @@ body {
   background-image: url("../images/istockphoto-1309884850-170667a.jpg");
   background-size: cover;
   background-position: center;
-  display: flexbox;
- }
+}  
 
+.hero-about, .hero-work, .hero-contact, .hero-resume {
+  border: 3px solid #154360;
+  border-radius: 15px;
+  height: 250px;
+}
 
- .hero-about, .hero-work, .hero-contact, .hero-resume {
-   background-image: url("../images/istockphoto-1309884850-170667a.jpg");
-   display: flex;
-   color: white;
-   height: 250px;
- }
+.hero-title {
+ text-align: center;
+ padding-left: 100px;
+}
+
+.hero-text {
+ text-align: center;
+ padding-left: 250px;
+ padding-bottom: 50px;
+ font-style: italic;
+ font-size: 18px;
+ color: #C0C0C0;
+ text-shadow: 0 0 10px #C0C0C0;
+}
+
+.image {
+ padding-right: 50px;
+}
 
  .footer {
   background-image: url("../images/portfolio-background-header-Jessica-Roots-Web-Design-.jpg");
